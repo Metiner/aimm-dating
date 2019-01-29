@@ -1,0 +1,47 @@
+<div class="header mx-5">
+    <div class="row align-items-center">
+        <div class="col logo py-4">
+            <span>AIMM.DATING</span>
+        </div>
+        <!-- MENU ITEMS -->
+        <div class="col-8 menu-items d-none d-lg-block">
+            <div class="row align-items-center justify-content-end">
+                <div class="col-auto menu-item p-4">
+                    <a href="#" class="link">They found each other</a>
+                </div>
+                <div class="col-auto menu-item p-4">
+                    <a href="#" class="link">How?</a>
+                </div>
+                <div class="col-auto menu-item p-4">
+                    <a href="#" class="link">When?</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- HAMBURGER MENU ICON -->
+        <div class="col d-lg-none text-right">
+            <img (click)="show = !show" src="assets/svgs/hamburger_menu.svg">
+        </div>
+    </div>
+    <!-- HAMBURGER MENU ITEMS -->
+    <div [@hamburgerMenuExpandAnimation]="show ? 'show': 'hide'" class="row hamburger_menu_items_container">
+        <div class="col">
+            <div class="row mr-3 justify-content-end">
+                <div class="col-auto hamburger-menu-item">
+                    <a href="#" class="link">They found each other</a>
+                </div>
+            </div>
+            <div class="row mr-3 justify-content-end">
+                <div class="col-auto hamburger-menu-item">
+                    <a href="#" class="link">How?</a>
+                </div>
+            </div>
+            <div class="row mr-3 justify-content-end">
+                <div class="col-auto hamburger-menu-item">
+                    <a href="#" class="link">When?</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+

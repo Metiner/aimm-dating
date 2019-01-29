@@ -1,0 +1,60 @@
+.header {
+  border-bottom: 5px solid #103346;
+}
+.menu-item:before{
+
+}
+
+.menu-item:hover:before{
+}
+.menu-item{
+  a{
+    transition: 300ms ease-in;
+    color: #f14533;
+  }
+  &:hover{
+    a{
+      text-decoration: none;
+      color:white;
+    }
+  }
+  &:hover:before{
+    transform: scaleX(1);
+  }
+  &:before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    -webkit-transform: scaleX(0);
+    transform: scaleX(0);
+    z-index: -1;
+    background: #f14533;
+    transition: 300ms ease-in;
+  }
+}
+
+.hamburger_menu_items_container{
+  overflow: hidden;
+}
+.hamburger-menu-item{
+  a{
+    transition: 300ms ease-in;
+    color: #f14533;
+  }
+}
+
+#joinHearthsAnim{
+  height: 500px;
+}
+
+a{
+  color:#103346;
+
+  &:hover {
+    color: #103346;
+    text-decoration: none;
+  }
+}

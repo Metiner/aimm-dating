@@ -18,7 +18,6 @@
     "linebreak-style": [true, "LF"],
     "class-name": true,
     "one-variable-per-declaration": true,
-    "quotemark": [true, "double"],
     "semicolon": true,
     "whitespace": [true, "check-branch", "check-decl", "check-operator", "check-module", "check-type"],
     "directive-selector": [true, "attribute", "ec", "camelCase"],
